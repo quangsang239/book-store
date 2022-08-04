@@ -1,0 +1,60 @@
+.profile{
+  position: relative;
+  /* height: 80%; */
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, 0%);
+  display: flex ;
+  flex-direction: column;
+  justify-self: center;
+}
+.profile .profile-title{
+  text-align: center;
+  font-size: 50px;
+}
+.profile .div-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.profile .name-phone{
+  display: flex !important;
+  justify-content: space-around;
+  
+}
+.profile .current-password{
+  display: flex;
+  justify-content: space-around;
+}
+.profile .new-password{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.profile .btn-save-profile{
+  /* position: absolute; */
+  /* margin-top: 30px; */
+  margin-bottom: 30px !important;
+  margin: 0 auto;
+  height: 50px;
+  width: 202px;
+  background-color: #3A4468;
+  color: white;
+  border: none;
+}
+.profile .btn-save-profile:hover{
+  opacity: 0.7;
+}
+.profile .input-profile-name{
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #f3c947;
+}
+.profile .input-profile-name:focus{
+  border: 1px solid #f3c947;
+}
+.profile .input-profile-name:focus{
+  border: 1px solid #f3c947;
+}

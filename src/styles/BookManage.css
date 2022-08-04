@@ -1,0 +1,164 @@
+.book-manager{
+  position: relative;
+  /* height: 80%; */
+  /* width: 80%; */
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, 0%);
+  display: flex ;
+  flex-direction: column;
+  justify-self: center;
+}
+.book-manager .profile-title{
+  text-align: center;
+  font-size: 50px;
+}
+.book-manager .div-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.book-manager .name-phone{
+  display: flex !important;
+  justify-content: space-around;
+  
+}
+.book-manager .current-password{
+  display: flex;
+  justify-content: space-around;
+}
+.book-manager .new-password{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.book-manager .btn-save-profile{
+  /* position: absolute; */
+  /* margin-top: 30px; */
+  margin-bottom: 30px !important;
+  margin: 0 auto;
+  height: 50px;
+  width: 202px;
+  background-color: #3A4468;
+  color: white;
+  border: none;
+}
+.book-manager .btn-save-profile:hover{
+  opacity: 0.7;
+}
+.book-manager .input-profile-name{
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #f3c947;
+}
+.book-manager .input-profile-name:focus{
+  border: 1px solid #f3c947;
+}
+.book-manager .input-profile-name:focus{
+  border: 1px solid #f3c947;
+}
+.book-manager body {
+  font-family: 'lato', sans-serif;
+}
+.book-manager .container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.book-manager h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+.book-manager h2 small {
+  font-size: 0.5em;
+}
+.book-manager .responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.book-manager .responsive-table li:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.book-manager .responsive-table .table-header {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.book-manager .responsive-table .table-row {
+  background-color: #fff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.book-manager .responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.book-manager .responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.book-manager .responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.book-manager .responsive-table .col-4 {
+  flex-basis: 25%;
+}
+@media all and (max-width: 767px) {
+  .book-manager .responsive-table .table-header {
+    display: none;
+ }
+ .book-manager .responsive-table li {
+    display: block;
+ }
+ .book-manager .responsive-table .col {
+    flex-basis: 100%;
+ }
+ .book-manager .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+ }
+ .ordered.responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+ }
+}
+.wrap-action{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.img-checked{
+  width: 30px;
+  height: 30px;
+  /* background-color: green; */
+  /* color: green; */
+}
+.img-checked:hover{
+  background-color:#B4BCBB;
+}
+.select-profile-name{
+  width: 208px;
+  height: 50px;
+}
+.btn-save-profile-wrap{
+  display: flex;
+  justify-content:space-around;
+}
+.img-cancelImg{
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+.img-cancelImg:hover{
+  background-color: #95A5A6;
+}
